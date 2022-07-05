@@ -4,21 +4,29 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
 }
 
 span {
     color: rgb(97, 76, 216);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding: 100px;
+    margin-top: 0%;
+    float: left;
+    padding-left: 5%;
+    
+    
 }
 
 .half-width img {
@@ -51,10 +59,6 @@ body {
     background-position: right;
 }
 
-h2 {
-    font-size: 40px;
-}
-
 p {
     font-weight: 300;
     color: rgb(77, 74, 74);
@@ -62,4 +66,31 @@ p {
 
 .web-developer {
     color: orangered;
+}
+.experience-item{
+    
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0% 5%;
+    text-align: left;
+    padding: 2% 5%;
+    border-radius: 10%;
+
+}
+
+.orange-color{
+    color: orangered;
+}
+
+footer{
+    text-align: center;
+}
+.button-pos{
+    margin-top: 5%;
+}
+.exp-pos{
+    text-align: center;
+    text-shadow: 5px 5px orange;
+   background-color: darkslategray;
+    color: white;
 }
